@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Booking Form</title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+         <div class="container">
+            <div class="booking-box">
+                <div class="col-md-6 booking">
+        
+        <center> <h1>BOOKING FORM</h1></center>
+        <form action="userbooking.php" method="POST">
+             <div class="form-group">
+                 <label> Name</label><br>
+                 <input type="text" name="name">
+            </div><br>
+            <div class="form-group">
+            <label> Email ID</label><br>
+                <input type="email" name="email">
+            </div><br>
+            <div class="form-group">
+            <label> Address</label><br>
+                <input type="textarea" name="address">
+            </div><br>
+            <div class="form-group">
+            <label> Select Photographer</label><br>
+            <select name="photographer">
+              <option value="">--Select--</option>
+              <option value="Peter_Mckinnion">Peter Mckinnion</option>
+              <option value="Sam_Kolder">Sam Kolder</option>
+              <option value="Shortstache">Shortstache</option>
+              <option value="Matt_komo">Matt komo</option>
+              <option value="Matti_Haapoja">Matti Haapoja</option>
+              <option value="Peter_Lingerden">Peter Lingerden</option>
+                </select></div><br><br>
+            <div class="form-group">
+            <label> Start Time</label><br>
+                <input type="time" name="time">
+            </div><br>
+            <div class="form-group">
+            <label> Start date</label><br>
+                <input type="date" name="startdate">
+            </div><br>
+            <div class="form-group">
+            <label> End date</label><br>
+                <input type="date" name="enddate">
+            </div><br>
+            <div class="form-group">
+            <label> Select Package</label><br>
+            <select name="package">
+              <option value="">--Select--</option>
+              <option value="commercial">Commercial</option>
+              <option value="wedding">Wedding</option>
+              <option value="photoshoot">Photoshoot</option>
+                </select>
+            </div><br>
+            <div class="form-group">
+            <label> If Commercial</label><br>
+            <select name="com">
+              <option value="">--Select--</option>
+              <option value="pack1">With Equipments</option>
+              <option value="pack2">Without Equipments</option>
+                </select>
+            </div><br>
+            <div class="form-group">
+            <label> If Wedding</label><br>
+            <select name="wed">
+              <option value="">--Select--</option>
+              <option value="pack1">Only Photos</option>
+              <option value="pack2">Only Videos</option>
+              <option value="pack3">Photo+Video</option>
+                </select>
+            </div><br>
+            <div class="form-group">
+            <label> If Photoshoot</label><br>
+            <select name="photo">
+              <option value="">--Select--</option>
+              <option value="pack1">indoor</option>
+              <option value="pack2">outdoor</option>
+              <option value="pack3">indoor+outdoor</option>
+                </select>
+            </div><br>
+            <a href="final.php">
+            <button type="submit" class="btn btn-primary">CONFIRM</button>
+        </form>
+            </div>
+             </div>
+        </div>
+     </body>
+    </html>
+    

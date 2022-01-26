@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(image/pexels-abhishek-saini-2929412.jpg);
+    background-size: cover;   
+}
+.booking-box{
+    max-width: 800px;
+    float: none;
+    margin: 50px auto;
+}
+
+.booking{
+    position: absolute;
+    background: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+  top: 20%;
+  width: 100%;
+}
+.form-group{
+     background: #fff;
+    padding: 30px;
+}

@@ -1,0 +1,19 @@
+body{
+     background-color: cornsilk;
+    background-size: cover;    
+}
+
+.logout{
+    background-color: black;
+    text-align: right;
+    font-family: raleway;
+    font-size: 25px;
+}
+
+.end{
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    background-size: cover;
+    padding: 2rem 0;
+}
